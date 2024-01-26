@@ -50,8 +50,8 @@
 
     .banner {
         padding: 0;
-
         .slick-slide {
+            border-radius: 0;
             padding: 0 40px;
             height: calc(100vh - 72px);
             &:before {
@@ -65,6 +65,7 @@
                 background: #00000099;
             }
             .container {
+                height: 271px;
                 display: flex;
                 flex-direction: column;
                 align-items: center;
@@ -74,7 +75,7 @@
         }
 
         .btn-lg {
-            padding: 19.6px 29px;
+            padding: 19.6px 35px;
         }
     }
 
@@ -90,4 +91,3 @@
         max-width: 260px;
     }
 }
-
