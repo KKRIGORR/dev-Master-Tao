@@ -32,7 +32,10 @@
     }
 
     .slick-dots {
-        margin: -51px 0 0;
+       position: absolute;
+       bottom: 42px;
+       left: 50%;
+       transform: translate(-50%);
     }
 }
 
