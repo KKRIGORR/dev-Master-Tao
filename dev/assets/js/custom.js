@@ -41,6 +41,14 @@ $(document).ready(function(){
     })
   }
 
+function addClassCharter() {
+    const section = document.querySelectorAll('section')
+
+    section.forEach(item => item.classList.add('charter'))
+}
+
+document.querySelector('.home-page') ? addClassCharter() : nul;
+
 
 
 
