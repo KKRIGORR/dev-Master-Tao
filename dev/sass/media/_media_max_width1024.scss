@@ -2,6 +2,7 @@
     
     h2{
         font-size: 24px;
+        text-align: center
     }
     .container {
         padding-left: $container-mobile-padding;
@@ -52,6 +53,9 @@
         }
     }
 
+    .first-screen {
+        margin-bottom: 53px;
+    }
 
     .banner {
         padding: 0;
@@ -96,41 +100,109 @@
         max-width: 260px;
     }
 
-    .template-title {
-        text-align: center;
-        padding-bottom: 12px;
-        margin: 35px;
-    }
-
     .calculation-decoration {
         display: none;
     }
 
+    .template-title h2 {
+        position: relative;
+        text-align: center;
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 124.5%;
+        text-transform: uppercase;
+        margin-bottom: 24%;
+    }
+    
     .template-title.col-lg-7 h2:after {
         content: "";
-        position: static;
-        display: inline-block;
-        width: 85px;
-        height: 2px;
+        position: absolute;
+        left: 50%;
+        top: 113px;
+        transform: translate(-50%, 0);
+        margin: 0; 
+    }
+
+    .template-title.template-title.col-lg-7 {
+        margin-bottom: 0;
+        text-align: left;
+        padding: 0;
+    }
+
+    .container.calc {
+        padding-right: 20px;
+        padding-left: 20px;
     }
 
     .calculation-form {
-       min-width: 100%;
+        min-width: 100%;
+        padding: 49px 30px 34px;
+        margin-bottom: 0px;
+        gap: 0;
     }
 
     .input-row {
         display: block;
     }
+    
+    input {
+        margin-bottom: 18px;
+        max-width: 600px;
+        border-radius: 10px;
+        padding: 17px 20px;
+        font-size: 14px;
+        border: none;
+        transition: 0.2s;
+        width: 100%;
+    }
+
+    .input-column {
+        gap: 0;
+    }
+
+    .input-box label {
+        margin-bottom: 5px;
+    }
+
+    #fileInput {
+        padding-bottom: 35px;
+    }
+    
+    .column-checkbox {
+        padding-top: 8px;
+        padding-bottom: 5px;
+        gap: 8px
+    }
+    
+    .btn-lg {
+        padding: 19.6px 48px;
+        font-size: 15px;
+    }
 
     //slick advantage
 
     .advantages {
-        @include default-bg-mobile
+        padding: 55px 0 45px;
+        margin-top: 60px;
+        &:before {
+            border-radius: 0;
+            left: 0;
+            right: 0;
+        }
     }
 
-    .advantages-description {
-        margin-bottom: 48px;
+    .advantages .template-title h2 {
+        font-size: 24px;
+        text-align: center;
+        margin-bottom: 5px;
     }
 
+    .advantages .template-title {
+        margin-bottom: 47px;
+    }
 
+    #slider-advantages ul.slick-dots {
+        position: absolute;
+        bottom: 15px;
+    }
 }

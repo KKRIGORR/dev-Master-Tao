@@ -45,6 +45,7 @@ $section-margin:  60px;
 
 @mixin default-bg-mobile {
     padding: 55px 0 60px;
+    margin-top: 50px;
     &:before {
         border-radius: 0;
         left: 0;
