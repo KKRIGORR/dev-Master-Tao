@@ -184,6 +184,7 @@
     .advantages {
         padding: 55px 0 45px;
         margin-top: 60px;
+        margin-bottom: 56px;
         &:before {
             border-radius: 0;
             left: 0;
@@ -191,6 +192,10 @@
         }
     }
 
+    h6.advantage-description {
+        width: 180px;
+    }
+    
     .advantages .template-title h2 {
         font-size: 24px;
         text-align: center;
@@ -204,5 +209,18 @@
     #slider-advantages ul.slick-dots {
         position: absolute;
         bottom: 15px;
+    }
+
+    .delivery .template-title {
+        margin-bottom: 32px;
+        h2 {
+            margin-bottom: 6px;
+        }
+    }
+
+    .delivery .slick-dots {
+        position: absolute;
+        top: 106%;
+        left: 27%;
     }
 }
