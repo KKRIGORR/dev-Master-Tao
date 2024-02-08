@@ -57,6 +57,8 @@
         margin-bottom: 53px;
     }
 
+    //baner
+
     .banner {
         padding: 0;
         .slick-slide {
@@ -100,6 +102,8 @@
         max-width: 260px;
     }
 
+    //table
+    
     .calculation-decoration {
         display: none;
     }
@@ -211,6 +215,8 @@
         bottom: 15px;
     }
 
+    //delivery
+    
     .delivery .template-title {
         margin-bottom: 32px;
         h2 {
@@ -222,5 +228,53 @@
         position: absolute;
         top: 106%;
         left: 27%;
+    }
+
+    //services    
+
+    .services {
+        padding: 52px 0 80px;
+    margin-top: 50px;
+    &:before {
+        border-radius: 0;
+        left: 0;
+        right: 0;
+    }
+    }
+
+    .services h2 {
+        margin-bottom: 0;
+    }
+
+    .services .template-card .img-box {
+        height: 229px;
+        margin: 0 -20px 14px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .services .template-card-btn-row .btn {
+        width: 53%;
+    }
+
+    .services .template-card .template-card__subtitle, .services .template-card h6 {
+        margin-bottom: 20px;
+        font-size: 14px;
+    }
+
+    .services .template-title:after {
+        content: "";
+        position: absolute;
+        left: 50%;
+        top: calc(100% - -5px);
+        transform: translate(-50%, 0);
+        width: 85px;
+        height: 2px;
+    }
+
+    .services .slick-dots {
+        position: absolute;
+        top: 102%;
+        left: 31%;
     }
 }
