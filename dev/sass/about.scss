@@ -1,0 +1,37 @@
+.charter.about {
+    margin-bottom: 135px;
+
+    .container {
+        position: relative;
+    }
+
+    .template-title:after {
+        content: "";
+        position: absolute;
+        top: calc(100% - 2px);
+        transform: translate(-670%, 0);
+    }
+
+    .template-title h2 {
+        text-align: left;
+    }
+
+    .template-subtitle h6 {
+        max-width: 555px;
+        font-weight: 100;
+        line-height: 170%;
+        margin-bottom: 23px;
+    }
+
+    .about-photo {
+        position: absolute;
+        left: 600px;
+        top: -55px;
+        max-width: 560px;
+        width: 100%;
+    }
+
+    .template-title {
+        margin-bottom: 43px;
+    }
+}

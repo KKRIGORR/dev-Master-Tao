@@ -234,7 +234,8 @@
 
     .services {
         padding: 52px 0 80px;
-    margin-top: 50px;
+        margin-top: 50px;
+        margin-bottom: 50px;
     &:before {
         border-radius: 0;
         left: 0;
@@ -277,4 +278,41 @@
         top: 102%;
         left: 31%;
     }
+
+    /////////about
+
+    .about-photo {
+        position: relative;
+        width: 280px;
+        height: 290px;
+        left: 35px;
+        top: 20px;
+    }
+
+    .about .template-title:after {
+        content: "";
+        position: absolute;
+        top: calc(170% - -1px);
+        transform: translate(0, 0);
+        left: calc(50% - 44px);
+    }
+
+    .about .template-title h2 {
+        text-align: center;
+        margin-bottom: 50px;
+    }
+
+    .about .template-title {
+        padding: 0;
+    }
+
+    .about .template-subtitle h6 {
+        font-size: 16px;
+        margin: 0 auto;
+        max-width: 335px;
+        line-height: 150%;
+        text-align: justify;
+        margin-bottom: 20px;
+    }
+
 }

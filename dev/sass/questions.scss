@@ -1,0 +1,113 @@
+.questions .accordion {
+    box-shadow: none;
+    max-width: 716px;
+    width: 100%;
+    --bs-accordion-bg: transparent;
+    --bs-border-color: transparent;
+    --bs-accordion-border-radius: 10px;
+    --bs-accordion-btn-icon-width: 27px;
+    --bs-accordion-btn-icon-transform: rotate(-360deg);
+}
+
+.questions .accordion-button {
+    background: transparent;
+    color: #fff;
+    border-radius: 10px 10px 0px 0px;
+    border: 1px solid #3A444E;
+    font-size: 18px;
+    font-weight: 700;
+    padding-left: 33px;
+    line-height: 124.5%;
+    box-shadow: none;
+}
+
+.questions .accordion-button.collapsed:after {
+    background-image: url(assets/img/arrow-accordion-right.svg);
+}
+
+.questions .accordion-button::after {
+    background-image: url(assets/img/arrow-accordion-up.svg);
+}
+
+.questions .accordion-button:not(.collapsed) {
+    background-color: #fff;
+    color: #000;
+    box-shadow: none;
+    border: transparent;
+}
+
+.questions .accordion-body {
+    background: #fff;
+    font-size: 17px;
+    border-radius: 0px 0px 10px 10px;
+    padding-right: 100px;
+    padding-left: 33px;
+    padding-bottom: 24px;
+    padding-top: 5px;
+    font-weight: 300;
+    line-height: 144.5%;
+    box-shadow: none;
+}
+
+.questions .accordion-item {
+    margin-bottom: 18px;
+    border: transparent;
+}
+
+.questions .container-fluid {
+    max-width: 390px;
+    max-height: 553px;
+    padding-right: 50px;
+    padding-left: 40px;
+}
+
+.container-fluid {
+    background-color: #363A4D;
+    padding: 15px 0px 100px;
+    width: 100%;
+    position: relative;
+    border-radius: 20px;
+}
+
+.questions .questions-title {
+    padding-top: 23px;
+    text-align: left;
+    padding-left: 0px 
+}
+
+.questions .questions-subtitle {
+    max-width: 300px;
+    text-align: left;
+    padding-left: 0px;
+}
+
+.questions input {
+    max-width: 310px;
+    border-radius: 10px;
+    padding: 17px 20px;
+    font-size: 14px;
+    border: none;
+    transition: 0.2s;
+    width: 100%;
+    margin-bottom: 18px 
+}
+
+.questions .input-box {
+    margin-bottom: 0px;
+}
+
+.questions .questions-form {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-left: 37px;
+}
+
+.questions .btn-lg {
+    width: 310px;
+    margin-top: 15px
+}
+
+.questions .btn-lg .img {
+    margin: 0 -14px 0 83px;
+}
