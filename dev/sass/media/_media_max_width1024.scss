@@ -281,15 +281,19 @@
 
     /////////about
 
-    .about-photo {
+    .charter.about {
+        margin-bottom: 20px;
+    }
+    
+    .charter.about .about-photo {
         position: relative;
         width: 280px;
         height: 290px;
         left: 35px;
-        top: 20px;
+        top: -25px;
     }
 
-    .about .template-title:after {
+    .charter.about .template-title:after {
         content: "";
         position: absolute;
         top: calc(170% - -1px);
@@ -297,7 +301,7 @@
         left: calc(50% - 44px);
     }
 
-    .about .template-title h2 {
+    .charter.about .template-title h2 {
         text-align: center;
         margin-bottom: 50px;
     }
@@ -313,6 +317,202 @@
         line-height: 150%;
         text-align: justify;
         margin-bottom: 20px;
+    }
+
+    ///questions
+    
+    .questions{
+        margin-bottom: 62px;
+        .template-title{
+            text-align: center;
+            padding-top: 0px;
+            margin: 0 0 18px 0;
+            h2{
+            text-align: center;
+            font-size: 24px;
+            margin-bottom: 10px;
+            &:after{
+                top: 83px;
+                left: 50%;
+                }
+            }
+        }
+        .container-fluid{
+            padding-left: 0px;
+            padding-right: 0px;
+        }
+        .d-flex{
+            display: block!important;
+        }
+        .accordion{
+          padding: 10px 0;
+        }
+        .accordion-button{
+            max-width: 335px;
+            height: 64px;
+            font-size: 16px;
+            line-height: 125%;
+            padding-left: 20px;
+            padding-right: 20px;
+            padding-top: 0px;
+            padding-bottom: 0px;
+            border-radius: 10px 10px 0px 0px;
+        }
+        .accordion-body{
+            max-height: 152px;
+            padding-left: 20px;
+            padding-right: 20px;
+            padding-top: 0px;
+            padding-bottom: 8px;
+            max-width: 335px;
+            font-size: 14px;
+            line-height: 144%;
+        }
+        .accordion-item{
+            margin-bottom: 16px;
+        }
+
+        .questions-form {
+            max-width: 335px;
+            margin: 0 auto;
+        }
+        .questions-title,
+        .questions-subtitle{
+            text-align: center;
+        }
+        .questions-subtitle{
+            width: 300px;
+            padding-left: 25px;
+            margin-bottom: 19px;
+        }
+        .btn {
+            margin-top: 10px;
+        }
+         .btn-lg {
+            width: 295px;
+            height: 68px;
+            padding: 19.6px 28px;
+            font-size: 16px;
+            font-weight: 600;
+            .icon {
+                margin: 0 -14px 0 75px;
+            }
+        }
+        input{
+            width: 296px;
+            margin-bottom: 15px;
+        }
+        .big-col{
+            height: 70px;
+        }
+
+
+    }
+
+
+    ///cooperation
+    
+    .cooperation.charter{
+        &:before{
+            border-radius: 0px;
+            width: 100%;
+            left: 0;
+            right: 0;
+        }
+        .template-title{
+            padding-top: 40px;
+            h2{
+            text-align: center;
+            font-size: 24px;
+            &:after{
+                top: 151px;
+                left: 50%;
+                }
+            }
+            h3{
+             font-size: 16px;
+             margin-bottom: 57px;
+            }
+        }
+        img.car-cooperation{
+            width: 380px;
+            height: 262px;
+            margin-left: -13px;
+            margin-bottom: 7px;
+        }
+        .first-block-cooperation,
+        .second-block-cooperation {
+            display: flex;
+            flex-direction: column;
+        }
+        .first-block-cooperation{
+            flex-direction: column-reverse;
+            max-width: 840px;
+        }
+        .second-block-cooperation {
+            margin-left: 0px;
+            .car-cooperation{
+                margin-bottom: 0px;
+            }
+            .cooperation-text-second{
+                h6{
+                padding-top: 0px;
+                }
+                .second-subtitle{
+                    margin-bottom: 32px;
+                }
+            }
+            .btn-lg{
+                max-width: 335px;
+                margin-bottom: 39px;
+                .icon {
+                    margin: 0 -14px 0 130px;
+                }
+            }
+            }
+
+        .cooperation-text,
+        .cooperation-text-second {
+            margin-bottom: 8px;
+            h6{
+            width: 100%;
+            text-align: justify;
+            margin-bottom: 22px;
+            line-height: 149%;
+            font-size: 16px;
+            }
+        }
+
+    }
+    
+    
+    ////footer
+    
+    .footer{
+        .container.calc::before{
+            width: 335px;
+        }
+        .main-info{
+        display: flex;
+        margin-left: auto;
+        margin-right: auto;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        }
+        .transportation-footer{
+            display: none;
+        }
+        .services-footer{
+            display: none;
+        }
+        .info-footer{
+            display: none;
+        }
+
+
+
+
     }
 
 }
